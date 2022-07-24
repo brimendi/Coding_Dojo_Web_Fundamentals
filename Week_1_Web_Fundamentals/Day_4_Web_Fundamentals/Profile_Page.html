@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="Profile_Page.css">
+</head>
+<body>
+    <div class="nav">
+        <div class="menu-items">
+            <ul class="nav-links">
+                <li><h1 class="nav-title">Profile</h1></li>
+                <li><a id="nav-links" href="#">Home</a></li>
+                <li><a id="nav-links" href="#" class="active">My Profile</a></li>
+                <li><a id="nav-links" href="#">Find Connections</a></li>
+            </ul>
+        </div>
+        <div class="sign-out">
+            <button class="btn">Sign Out</button>
+        </div>
+    </div>    
+    <div class="flex">
+        <div class="wholecard">
+            <div class="colorheader">
+                <img class="userimg" src="jane-m.jpg" alt="User Icon">
+            </div>
+            <div class="info">
+                <h1 id="name">Jane Doe</h1>
+                <h4 class="location">
+                    <img class="mapicon" src="map-marker.png" alt="Map Marker Icon">
+                    Seattle
+                </h4>
+                <p>Developer | Engineer | Problem Solver</p>
+                <p id="space-between-ptag-and-link">Master of shadows and the Internet!</p>
+                <a id="edit-profile-link" href="https://codingdojo.com">
+                    <img class="gear-icon" src="gear.png" alt="Gear Icon">
+                    edit profile
+                </a>
+            </div>
+            <div class="education-header">
+                <h2>Education</h2>
+            </div>
+            <div class="education-info">
+                <h4>Coding Dojo - Full Stack Bootcamp</h4>
+                <p>Dec 2019 - Mar 2020</p>
+                <h5>Triple black belt in Python, MERN, and C#...</h5>
+            </div>
+        </div>
+    </div>
+    <div class="flex-connections">
+        <div class="whole-connection-requests">
+            <div class ="grey-header">
+                <span class="circle"></span>
+                <h3>Connection Requests</h3>
+            </div>
+            <div class="connection-request-info">
+                <p>
+                    <img class="small-user-icons" src="phil-s.jpg" alt="Phil K">
+                    Todd E
+                    <img class="grey-checkmarks" src="Eo_circle_grey_checkmark.svg.png" alt="accept">
+                </p>
+                <p>
+                    <img class="small-user-icons" src="todd-s.jpg" alt="Todd E">
+                    Phil K
+                    <img class="grey-checkmarks" src="Eo_circle_grey_checkmark.svg.png" alt="accept">
+                </p>
+            </div>
+        </div>
+        <div  class="whole-your-connections">
+            <div class ="grey-header">
+                <span class="circle"></span>
+                <p>500+ Your Connections</p> 
+            </div>
+            <div class="your-connections-info">
+                <p>    
+                    <img class="small-user-icons" src="adrien-s.jpg" alt="Adrien D">
+                    Adrien D
+                </p>
+                <p>
+                    <img class="small-user-icons" src="anne-s.jpg" alt=" Anne J">
+                    Anne J
+                </p>
+                <p>
+                    <img class="small-user-icons" src="alayne-s.jpg" alt="Alayne T">
+                    Alayne T
+                </p>
+                <p>
+                    <img class="small-user-icons" src="arry-s.jpg" alt="Arry Y">
+                    Arry Y
+                </p>
+            </div>
+            <div class="view-more">
+                <a href="https://www.codingdojo.com">View More</a>
+            </div>
+        </div>    
+    </div>    
+</body>
+</html>

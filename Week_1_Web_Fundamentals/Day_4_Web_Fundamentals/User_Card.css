@@ -1,0 +1,68 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.whole-card {
+    width: 900px;
+
+}
+.color-header {
+    background-color: teal;
+    height: 90px;
+    padding-top: 60px;
+    padding-left: 30px;
+}
+
+.user-img {
+    height: 160px;
+}
+
+.info {
+    height: 200px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    padding-top: 80px;
+    border-bottom: 5px solid grey;
+    border-left: 5px solid grey;
+    border-right: 5px solid grey;
+}
+
+.icon {
+    height: 18px;
+}
+
+h1 {
+    font-size: 50px;
+    padding-bottom: 10px;
+}
+
+
+.location {
+    font-weight: normal;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+#space-between-p-tag-and-link {
+    padding-bottom: 15px;
+}
+
+#edit-profile {
+
+
+}
+
+/* #gear {
+    height: 15px;
+} */
