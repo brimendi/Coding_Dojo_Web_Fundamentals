@@ -10,7 +10,7 @@
     justify-content: space-between;
 }
 
-.navtitle, h1 {
+.nav-title, h1 {
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 165px;
@@ -28,12 +28,12 @@
     padding-right: 20px;
 }
 
-#nav-links {
+.nav-links-s {
     color: white;
     text-decoration: none;
 }
 
-.active {
+#active {
     font-weight: bold;
 }
 
@@ -63,25 +63,26 @@
     justify-content: space-evenly;
 }
 
-.wholecard {
+.whole-card {
     width: 550px;
     margin-top: 30px;
+    margin-right: 10px;
 }
 
-.colorheader {
+.color-header {
     background-color: teal;
     height: 90px;
     padding-top: 60px;
     padding-left: 30px;
 }
 
-.userimg {
+.user-img {
     height: 160px;
     border-radius: 50%;
 }
 
 .info {
-    height: 200px;
+    /* height: 200px; */
     padding-left: 30px;
     padding-bottom: 20px;
     padding-top: 80px;
@@ -91,7 +92,7 @@
     margin-bottom: 50px;
 }
 
-.mapicon {
+.map-icon {
     height: 20px;
     margin-right: 8px;
 }
@@ -137,10 +138,10 @@
     font-weight:bold;
     position: relative;
     right: 4px;
-    left: 4px;
+    left: 2px;
     top: -4px;
     color: grey;
-    padding-left: 8px;
+    padding-left: 10px;
 }
 
 /* ihfsiudfhihfiud */
@@ -208,6 +209,7 @@
 .flex-connections {
     margin-right: 160px;
     margin-top: 30px;
+    margin-left: 10px;
 }
 
 .view-more {
@@ -239,19 +241,17 @@
 
 .image-icons {
     height: 35px;
-    margin-left: 15px;
+    margin-left: 5px;
     margin-right: 3px;
 }
 
 .grey-header-headings {
     padding-right: 5px;
-    /* padding-left: 5px; */
-    
 }
 
 .circle-w-heading {
     padding-top: 20px;
-    padding-left: 2px;
+    padding-left: 6px;
     padding-right: 2px;
     font-size: 18px;
     font-weight: bold;
@@ -266,28 +266,23 @@
     height: 29px;
     border-radius: 50%;
     font-size: 16px;
-    font-weight:bold;
+    font-weight: bold;
     position: relative;
-    right: 4px;
-    left: 2px;
     top: -10px;
     color: grey;
     padding-left: 10px;
     padding-right: 30px;
     padding-top: 10px;
-    padding-bottom: 3px;
+    padding-bottom: 1px;
 }
 
 .svg {
     height: 35px;
-    display: flex;
-    justify-content: flex-end;
 }
 
-.icon-wrapper {
+.svg-wrapper {
     display: flex;
     align-items: center;
-    justify-content: space-between;
 }
 
 .connection-wrapper {
