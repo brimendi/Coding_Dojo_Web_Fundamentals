@@ -60,6 +60,7 @@
     margin-top: 30px;
     margin-left: 160px;
     display: flex;
+    justify-content: space-evenly;
 }
 
 .wholecard {
@@ -197,7 +198,6 @@
 .flex-connections {
     margin-right: 160px;
     margin-top: 30px;
-    ;
 }
 
 .view-more {
