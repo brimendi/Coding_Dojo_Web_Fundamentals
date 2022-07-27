@@ -8,17 +8,17 @@
     <link rel="stylesheet" href="Button_Clicker.css">
 </head>
 <body>
-    <div>
-        <div class="flex justify-content align-items header">
-            <h1>Dojonary</h1>
-            <input class="search-bar" type="text" placeholder="Search">
-            <button class="button-login" onclick="loginLogout(this)">Login</button>
-        </div>
-        <div class="main-flex">
+    <div class="flex justify-content align-items header">
+        <h1>Dojonary</h1>
+        <input class="search-bar" type="text" placeholder="Search">
+        <button class="login-btn" onclick="loginLogout(this)">Login</button>
+    </div>
+    <div class="flex justify-content">
+        <div class="inline col">
             <div class="flex align-items ninja col-1">
                 <div>
-                    <h1>ninja</h1>
-                    <h2>noun</h2>
+                    <h2>ninja</h2>
+                    <h3>noun</h3>
                     <h4>Plural: ninjas</h4>
                     <button class="like-btn" onclick="alert('Ninja was liked.')">13 likes</button>
                 </div>
@@ -26,24 +26,24 @@
                     <p class="definitions">A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
                 </div>
             </div>
-            <div class="flex dojonary-box col-2">
+            <div class="flex align-items ninja">
                 <div>
-                    <p id="dojonary">Dojonary is defined by <span id="you-bold">YOU</span></p>
-                    <button class="add-definition-btn" onclick="removeAddDefinition(this)">Add Definition</button>
-                </div>
-            </div>
-        </div>
-            <div class="flex align-items ninja col-1">
-                <div>
-                    <h1>ninja</h1>
-                    <h2>noun</h2>
+                    <h2>ninja</h2>
+                    <h3>noun</h3>
                     <h4>Plural: ninjas</h4>
                     <button class="like-btn" onclick="alert('Ninja was liked.')">37 likes</button>
                 </div>
                 <div>
-                    <p class="definitions">A <a href="#">Programmer</a> who breaks down problems with <a href="#">zen</a>-like focus</p>
+                    <p class="definitions">A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus</p>
                 </div>
             </div>
+        </div>
+        <div class="dojonary-box col-2">
+            <div>
+                <p id="dojonary">Dojonary is defined by <span id="you-bold">YOU</span></p>
+                <button class="add-definition-btn" onclick="removeAddDefinition(this)">Add Definition</button>
+            </div>
+        </div>
     </div>
 <script src="button_clicker.js"></script>
 </body>
